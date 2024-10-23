@@ -13,6 +13,9 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+
+
+
 public class CargadorDeParadas {
     public static void cargarParadas(Grafo grafo, String rutaArchivo) {
         try (BufferedReader br = new BufferedReader(new FileReader(rutaArchivo))) {

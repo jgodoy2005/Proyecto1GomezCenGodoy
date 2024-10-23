@@ -12,7 +12,15 @@ public class Grafo {
     private ListaAdyacencia[] listaConexiones;
     private Parada[] paradas;
     private int numeroDeParadas;
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
     public Grafo(int numeroDeParadas) {
         this.numeroDeParadas = numeroDeParadas;
         listaConexiones = new ListaAdyacencia[numeroDeParadas];

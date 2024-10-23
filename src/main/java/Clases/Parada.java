@@ -11,6 +11,9 @@ package Clases;
 public class Parada {
     private String nombre;
 
+    
+    
+    
     public Parada(String nombre) {
         this.nombre = nombre;
     }
